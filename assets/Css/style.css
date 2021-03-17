@@ -214,3 +214,126 @@ progress{
 .skills__img{
     width: 50%;
 }
+
+
+/* Numbers */
+.numbers{
+    width: 100%;
+    height: 240px;
+    background-color:#10c9c3;
+
+    display: flex;
+}
+
+.projects__completed{
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.working__hours{
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.positive__feedbacks{
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.happy__clients{
+    width: 25%;
+
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.numbers__img{
+    margin-right: 20px;
+}
+
+.numbers__text{
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* Work */
+.works{
+
+}
+
+.all_works{
+
+    width: 100%;
+    height: 800px;
+}
+
+.row_1{
+    width: 100%;
+    display: flex;
+}
+
+.row_2{
+    width: 100%;
+    display: flex;
+}
+
+
+.photo_1{
+    width: 25%;
+    height: 400px;
+    background-color: #838383;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_1:hover{
+    background-color: #252525;
+    transition: 0.1s;
+
+}
+
+.photo_2{
+    width: 25%;
+    height: 400px;
+    background-color: #dddddd;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo_2:hover{
+    background-color: #252525;
+    transition: 0.1s;
+}
+
+.photo_img{
+    visibility: hidden;
+}
+
+.photo_1:hover > img {
+    visibility: visible;
+    width: 48px;
+    height: 30px;
+    transition: 0.1s;
+}
+
+.photo_2:hover > img {
+    visibility: visible;
+    width: 48px;
+    height: 30px;
+    transition: 0.1s;
+}
+
+
