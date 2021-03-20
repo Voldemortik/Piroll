@@ -384,3 +384,12 @@ progress{
     font-family:  'Montserrat', sans-serif;
 
 }
+
+.work__process_video{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
